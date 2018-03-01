@@ -1,0 +1,7 @@
+88e6432d7e74fa9522bbd8e6391fd99f *DESCRIPTION
+6a3a6f8e93f1a38e54f44ee77934bb9d *NAMESPACE
+628c58d1267b6d2afb7177b0b4cbbac2 *R/combScans.R
+486a5c1b675412165d7bd1bfea33f22b *R/readFiles.R
+196169c794c0daf7d82e1ef3e7c014f8 *R/sampProcess.R
+c709cf66db1b34197bb2c718820be503 *inst/mzML/exampleFile.mzML
+44c1dc3d5978c2b2247c6d6fecdc753e *man/readFiles.Rd
