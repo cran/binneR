@@ -1,11 +1,11 @@
-b56e52c45250bef4c46f198dd4168f97 *DESCRIPTION
+f08594b28e269145611d7ca55ca4ab65 *DESCRIPTION
 439ed3cd7f0cb066cdeb1cf0a352e92b *NAMESPACE
 1cf3998cce973e77066655324f62a4f8 *R/accurateData-method.R
 382261b4961b83f5c9d7294fb1cffbe5 *R/allClasses.R
 c374ac9ab026eab09d046a2bbd8d178f *R/allGenerics.R
-a9b4b62af355d186ed5de85bdfc3d068 *R/binCentrality.R
+71f08c6746029cabef147113979b6b4a *R/binCentrality.R
 ace81a2ef5cd5a7cb80b3e2f32d5aead *R/binParameters.R
-13c0ca3799243a5412a3e83b6bd26983 *R/binPurity.R
+12a5762e1769df2c0914b021e099352e *R/binPurity.R
 51b59d72c1593ae4b69935d7d820e75a *R/binneR.R
 14aad79280beb823cc1aa2578e0e2f52 *R/binneRlyse.R
 e845f7f159ca8c034058f86169d3c097 *R/binnedData-method.R
@@ -25,8 +25,8 @@ eb969d6104a31b9c5e302ca56d68fe6e *R/plotChromatogram.R
 5c2f0891d0b28de42c8223e3e3e5d2ba *R/spectralBinning-method.R
 e3e620e7fbb08153ed042c7d67128952 *build/vignette.rds
 905237a16eb6b3f4faa731a9e7713cdb *inst/doc/binneR.R
-730ced0a9efecc6829a86d1e38e2081d *inst/doc/binneR.Rmd
-95a580bfd123b586d83ee836896c44c5 *inst/doc/binneR.html
+79a1456044de1b82142c78c5b2e8a573 *inst/doc/binneR.Rmd
+6528e23d1924c91441289e727536fde1 *inst/doc/binneR.html
 c709cf66db1b34197bb2c718820be503 *inst/mzML/exampleFile.mzML
 a4682736f8ba4fa8e3ebbd6f752d094a *inst/sticker/binneR.png
 eabd5f6bde25377dadd2949e6699b3cb *inst/sticker/binneRsticker.R
@@ -51,4 +51,4 @@ ecb37bca9e9ab4dac2b7843a284961ce *tests/testthat/test-binneRlyse.R
 6af87c4203d658f310729f2cfd7cc07b *tests/testthat/test-detectInfusionScans.R
 c6d20b6ee5f3c252599ae8d4c0079677 *tests/testthat/test-plotChromFromFIle.R
 a314a87a6ae65df8214dc36ae0a5f58e *tests/testthat/test-readFiles.R
-730ced0a9efecc6829a86d1e38e2081d *vignettes/binneR.Rmd
+79a1456044de1b82142c78c5b2e8a573 *vignettes/binneR.Rmd
