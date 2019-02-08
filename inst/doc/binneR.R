@@ -81,7 +81,7 @@ chrom$acquisitionNum <- 1:nrow(chrom)
 
 ## ----infusionScanDetection-----------------------------------------------
 infusionScans <- detectInfusionScans(
-		filePaths('FIE-HRMS','BdistachyonEcotypes')[1],
+		metaboData::filePaths('FIE-HRMS','BdistachyonEcotypes')[1],
 	sranges = list(c(70,1000)),
 	thresh = 0.5
 )
@@ -89,13 +89,13 @@ infusionScans
 
 ## ----exampleChromatograms, fig.width=7,fig.height=5,fig.align='center'----
 plotChromFromFile(
-	filePaths('FIE-HRMS','BdistachyonEcotypes')[1],
+	metaboData::filePaths('FIE-HRMS','BdistachyonEcotypes')[1],
 	sranges = list(c(70,1000)),
 	scans = infusionScans
 )
 
 ## ----fileList------------------------------------------------------------
-file <- filePaths('FIE-HRMS','BdistachyonEcotypes')[1]
+file <- metaboData::filePaths('FIE-HRMS','BdistachyonEcotypes')[1]
 
 ## ----readFilesExample----------------------------------------------------
 res <- readFiles(file,
@@ -120,9 +120,9 @@ parameters@scans <- 6:14
 parameters
 
 ## ----exampleFiles--------------------------------------------------------
-files <-  filePaths('FIE-HRMS','BdistachyonEcotypes')
+files <-  metaboData::filePaths('FIE-HRMS','BdistachyonEcotypes')
 
-info <- runinfo('FIE-HRMS','BdistachyonEcotypes')
+info <- metaboData::runinfo('FIE-HRMS','BdistachyonEcotypes')
 
 ## ----infoMatchFiles------------------------------------------------------
 TRUE %in% (info$fileName != basename(files))
