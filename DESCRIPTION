@@ -2,7 +2,7 @@ Package: binneR
 Type: Package
 Title: Spectral Processing for High Resolution Flow Infusion Mass
         Spectrometry
-Version: 2.0.10
+Version: 2.0.11
 Authors@R: person("Jasen", "Finch", email = "jsf9@aber.ac.uk", role = c("aut", "cre"))
 Description: A spectral binning approach for high resolution flow infusion mass spectrometry data.
 URL: https://github.com/aberHRML/binneR
@@ -18,14 +18,14 @@ Collate: 'allGenerics.R' 'allClasses.R' 'binneRlyse.R'
         'calcBinList.R' 'getHeaders.R' 'calcBinMeasures.R'
         'combScans.R' 'readFiles.R' 'sampProcess.R' 'binneR.R'
         'plotBin.R' 'detectInfusionScans.R' 'plotChromatogram.R'
-        'plotTIC.R'
+        'plotTIC.R' 'plotFingerprint.R'
 Suggests: knitr, rmarkdown, gridExtra, metaboData (>= 0.2.3),
         prettydoc, htmltools, covr, testthat, gifski
 VignetteBuilder: knitr
 Additional_repositories: https://aberhrml.github.io/drat/
 NeedsCompilation: no
-Packaged: 2019-02-08 17:25:03 UTC; jasen
+Packaged: 2019-03-19 14:50:04 UTC; jsf9
 Author: Jasen Finch [aut, cre]
 Maintainer: Jasen Finch <jsf9@aber.ac.uk>
 Repository: CRAN
-Date/Publication: 2019-02-08 22:13:32 UTC
+Date/Publication: 2019-03-19 15:53:27 UTC

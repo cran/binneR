@@ -25,7 +25,7 @@ ms <- openMSfile(file)
 chrom <- mzR::header(ms)
 
 is <- detectInfusionScans(file)
-buffer <- 6
+buffer <- 10
 is <- c(1,is[2] + buffer)
 
 spectrum <- peaks(ms) %>%
@@ -48,7 +48,7 @@ chrom <- chrom %>%
 	filter(polarity == 0)
 chrom$acquisitionNum <- 1:nrow(chrom)
 
-	for (i in is[1]:is[2]){
+	for (i in is[1]:is[2]) {
 	p <- list()
 	
 	p$chromatogram <- ggplot(chrom,aes(x = acquisitionNum,y = totIonCurrent)) + 
@@ -138,6 +138,9 @@ analysis
 
 ## ----analysisChromatogram, fig.width=7,fig.height=5,fig.align='center'----
 plotChromatogram(analysis)
+
+## ----analysisFingerprints, fig.width=7,fig.height=5,fig.align='center'----
+plotFingerprint(analysis)
 
 ## ----analysisTICs, fig.width=7,fig.height=5,fig.align='center'-----------
 plotTIC(analysis)
